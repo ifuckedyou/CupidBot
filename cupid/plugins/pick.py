@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 @app.on_message(filters.text & filters.regex(r'^/pick') & ~filters.private)
 async def pick_couple(client, m):
     aw = await m.reply_text('Picking a couple...')
-    if await timedb.get_time(m.chat.id):
+    print(await timedb.get_time(m.chat.id))
         then = datetime.strptime((await timedb.get_time(m.chat.id))['time'], '%Y-%m-%d %H:%M:%S.%f')
         pickable_time = then + timedelta(hours=24)
         if datetime.now() != pickable_time:

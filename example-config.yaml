@@ -1,9 +1,9 @@
 telegram:
-    api_id: my.telegram.org
-    api_hash: my.telegram.org
-    bot_token: t.me/BotFather
+    api_id: 1061393
+    api_hash: dee44b60afe8fd325a96f5237e495d7a
+    bot_token: 1977550177:AAFfqB3fLsMua3pPGTTQywYKqNRbjwcuPuw
 config:
     sudo_id:
-        - 782144712
-        - 558772678
-    mongo_uri: mongodb.com
+        - 783435461
+
+    mongo_uri: mongodb+srv://natalout:natalout@cluster0.03fhz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority

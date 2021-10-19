@@ -8,7 +8,7 @@ async def start(client, m):
             "Hello! I'm a bot that <b>picks couple</b> in your group. This bot is highly inspired by @SHIPPERINGbot :). Do /help to see the available commands!",
             reply_markup=InlineKeyboardMarkup(
                     [
-                            [InlineKeyboardButton('Pyrogram', url='docs.pyrogram.org'), InlineKeyboardButton('Source Code', url='github.com/Vethya/CupidBot')]
+                            [InlineKeyboardButton('Pyrogram', url='docs.pyrogram.org'), InlineKeyboardButton('Source Code', url='https://t.me/Baby_xD')]
                         ]
                 )
             )
